@@ -11,6 +11,9 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
+CREATE DATABASE IF NOT EXISTS `essentialmode` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin */;
+USE `essentialmode`;
+
 -- Dump dei dati della tabella zap392533-3.addon_account: ~13 rows (circa)
 /*!40000 ALTER TABLE `addon_account` DISABLE KEYS */;
 INSERT INTO `addon_account` (`id`, `name`, `label`, `shared`) VALUES
